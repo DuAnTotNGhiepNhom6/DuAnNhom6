@@ -21,3 +21,8 @@ public class DanhGiaMonAn_Id implements Serializable{
 	private Users users;
 	private MonAn monan;
 }
+public class DanhGiaMonAn_Id implements Serializable{
+	private Users users;
+	private MonAn monan;
+}
+
