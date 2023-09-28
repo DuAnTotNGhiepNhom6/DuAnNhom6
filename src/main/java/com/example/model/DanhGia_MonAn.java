@@ -29,14 +29,4 @@ public class DanhGia_MonAn {
 	@ManyToOne@JoinColumn(name = "id_monan")
 	MonAn monan;
 }
-public class DanhGia_MonAn {
-	Integer star;
-	String comment;
-	
-	@Id
-	@ManyToOne@JoinColumn(name = "id_user")
-	Users users;
-	@Id
-	@ManyToOne@JoinColumn(name = "id_monan")
-	MonAn monan;
-}
+
